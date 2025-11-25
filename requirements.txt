@@ -27,8 +27,7 @@ langchain-text-splitters==0.2.2
 # ============================
 # 📦 Vectores FAISS local
 # ============================
-faiss-cpu==1.8.0
-
+faiss-cpu==1.13.0
 # ============================
 # 📄 Carga de documentos
 # ============================
