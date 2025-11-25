@@ -1,0 +1,48 @@
+# ============================
+# 🔥 Servidor Web
+# ============================
+Flask==3.0.3
+
+# ============================
+# 🔧 Variables de entorno
+# ============================
+python-dotenv==1.0.1
+
+# ============================
+# 🤖 OpenAI SDK oficial 2025
+# Compatible con client = OpenAI()
+# y embeddings de LangChain
+# ============================
+openai==1.52.0
+
+# ============================
+# 🧠 LangChain Core
+# ============================
+langchain==0.3.6
+langchain-community==0.3.2
+langchain-openai==0.2.3
+langchain-text-splitters==0.2.2
+
+# ============================
+# 📦 Vectores FAISS local
+# ============================
+faiss-cpu==1.8.0
+
+# ============================
+# 📄 Carga de documentos
+# ============================
+pypdf==5.1.0
+docx2txt==0.8
+
+# ============================
+# 🧮 Machine Learning
+# Clustering del usuario
+# ============================
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.2.3
+
+# ============================
+# ⏳ Utilidades
+# ============================
+tqdm==4.66.5
