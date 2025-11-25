@@ -9,15 +9,14 @@ gunicorn
 ########################################
 python-dotenv==1.0.1
 
-
+########################################
 # 🤖 OpenAI SDK + LangChain (compatibles)
+########################################
 openai==1.32.0
-langchain==0.1.20
-langchain-community==0.1.20
-langchain-openai==0.1.6
+langchain==0.0.350
+langchain-community==0.0.30
+langchain-openai==0.0.7
 langchain-text-splitters==0.0.1
-
-
 
 ########################################
 # 📦 Vector Store FAISS
