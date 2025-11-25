@@ -31,8 +31,7 @@ langchain-text-splitters==0.3.0  # División de textos para embeddings
 # Motor de búsqueda semántica en memoria
 # Versión compatible con numpy 1.x y Render
 # ============================
-faiss-cpu==1.7.4
-
+faiss-cpu==1.13.0
 # ============================
 # 📄 Carga de documentos
 # ============================
