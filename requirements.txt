@@ -2,6 +2,7 @@
 # 🔥 Servidor Web
 # ============================
 Flask==3.0.3
+gunicorn
 
 # ============================
 # 🔧 Variables de entorno
