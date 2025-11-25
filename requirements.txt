@@ -1,48 +1,53 @@
 # ============================
 # 🔥 Servidor Web
+# Framework para crear el backend HTTP
 # ============================
-Flask==3.0.3
-gunicorn
+Flask==3.0.3     # Microframework web principal
+gunicorn         # Servidor WSGI usado en producción (Render)
 
 # ============================
 # 🔧 Variables de entorno
+# Manejo de .env
 # ============================
-python-dotenv==1.0.1
+python-dotenv==1.0.1   # Cargar variables desde .env
 
 # ============================
 # 🤖 OpenAI SDK oficial 2025
 # Compatible con client = OpenAI()
-# y embeddings de LangChain
 # ============================
-openai==1.52.0
+openai==1.52.0   # Librería oficial para API OpenAI
 
 # ============================
 # 🧠 LangChain Core
+# Orquestación de LLMs y pipelines
 # ============================
-langchain==0.3.6
-langchain-community==0.3.2
-langchain-openai==0.3.0
-langchain-text-splitters==0.3.0
+langchain==0.3.6              # Núcleo de LangChain
+langchain-community==0.3.2    # Conectores externos y loaders
+langchain-openai==0.3.0       # Integración OpenAI con LangChain
+langchain-text-splitters==0.3.0  # División de textos para embeddings
 
 # ============================
 # 📦 Vectores FAISS local
+# Motor de búsqueda semántica en memoria
+# Versión compatible con numpy 1.x y Render
 # ============================
-faiss-cpu==1.13.0
+faiss-cpu==1.7.4
+
 # ============================
 # 📄 Carga de documentos
 # ============================
-pypdf==5.1.0
-docx2txt==0.8
+pypdf==5.1.0     # Leer PDFs
+docx2txt==0.8    # Extraer texto de Word
 
 # ============================
 # 🧮 Machine Learning
 # Clustering del usuario
 # ============================
-scikit-learn==1.5.2
-numpy==1.26.4
-pandas==2.2.3
+scikit-learn==1.5.2   # Algoritmos ML
+numpy==1.26.4         # Base numérica (compatible con scikit-learn y faiss)
+pandas==2.2.3         # Manejo de datos tabulares
 
 # ============================
 # ⏳ Utilidades
 # ============================
-tqdm==4.66.5
+tqdm==4.66.5   # Barras de progreso
