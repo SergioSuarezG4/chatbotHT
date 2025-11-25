@@ -12,11 +12,13 @@ python-dotenv==1.0.1
 ########################################
 # 🤖 OpenAI SDK
 ########################################
-openai==1.51.0
-langchain==0.3.6
-langchain-community==0.3.6
-langchain-openai==0.3.0
-langchain-text-splitters==0.3.0
+# 🤖 OpenAI SDK + LangChain (compatibles)
+openai==1.32.0
+langchain==0.2.12
+langchain-community==0.2.12
+langchain-openai==0.2.12
+langchain-text-splitters==0.2.2
+
 
 ########################################
 # 📦 Vector Store FAISS
