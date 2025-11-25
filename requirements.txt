@@ -15,14 +15,14 @@ python-dotenv==1.0.1   # Cargar variables desde .env
 # 🤖 OpenAI SDK oficial 2025
 # Compatible con client = OpenAI()
 # ============================
-openai==1.52.0   # Librería oficial para API OpenAI
+openai==1.51.0   # Librería oficial para API OpenAI
 
 # ============================
 # 🧠 LangChain Core
 # Orquestación de LLMs y pipelines
 # ============================
 langchain==0.3.6              # Núcleo de LangChain
-langchain-community==0.3.2    # Conectores externos y loaders
+langchain-community==0.3.6   # Conectores externos y loaders
 langchain-openai==0.3.0       # Integración OpenAI con LangChain
 langchain-text-splitters==0.3.0  # División de textos para embeddings
 
